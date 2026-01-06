@@ -1,16 +1,7 @@
 # ERROR: No extended dataflow license exists
 # vsim -work work tb_ripple_carry_adder 
-# Start time: 18:36:08 on Jan 06,2026
+# Start time: 18:50:21 on Jan 06,2026
 # Loading work.tb_ripple_carry_adder
 # Loading work.ripple_carry_adder
-add wave -position insertpoint  \
-sim:/tb_ripple_carry_adder/dut/SIZE \
-sim:/tb_ripple_carry_adder/dut/my_sum \
-sim:/tb_ripple_carry_adder/dut/a \
-sim:/tb_ripple_carry_adder/dut/b \
-sim:/tb_ripple_carry_adder/dut/sum \
-sim:/tb_ripple_carry_adder/dut/cout \
-sim:/tb_ripple_carry_adder/dut/cin
-run -all
-# End time: 18:37:53 on Jan 06,2026, Elapsed time: 0:01:45
+# End time: 18:50:33 on Jan 06,2026, Elapsed time: 0:00:12
 # Errors: 0, Warnings: 0

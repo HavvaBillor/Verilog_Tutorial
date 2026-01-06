@@ -19,21 +19,18 @@ ripple_carry_adder #(PROC_SIZE )dut (
 
 initial begin 
 
-a=16'b0000; 
-b=16'b0000;
+a=16'd0; 
+b=16'd0;
 #10;
-a=16'b0001; 
-b=16'b0010;
+a=16'd1; 
+b=16'd2;
 #10;
-a=16'b1001; 
-b=16'b1010;
+a=16'd9; 
+b=16'd10;
 #10;
-a=16'b1111; 
-b=16'b1111;
+a=16'd15; 
+b=16'd15;
 #10;
-
 
 end 
-
-
-endmodule;
+endmodule

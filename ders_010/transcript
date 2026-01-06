@@ -1,0 +1,14 @@
+# vsim -c -work work tb_delay -do "run -all; quit" 
+# Start time: 19:07:08 on Jan 06,2026
+# Loading work.tb_delay
+# run -all
+# time :10 a: 3
+# time :15, posedge
+# time :15 b:  0, c:  0
+# ** Note: $stop    : tb/tb_delay.v(27)
+#    Time: 25 ps  Iteration: 0  Instance: /tb_delay
+# Break in Module tb_delay at tb/tb_delay.v line 27
+# Stopped at tb/tb_delay.v line 27
+#  quit
+# End time: 19:07:09 on Jan 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

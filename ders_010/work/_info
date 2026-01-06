@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/subat/Verilog_Tutorial/ders_010
+vtb_delay
+!s110 1767716880
+!i10b 1
+!s100 GcCcRCd[Cm;QNlcGY8QOS3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+Ioj]41RKIRigje4e[?M[<Y2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1767716873
+8tb/tb_delay.v
+Ftb/tb_delay.v
+!i122 10
+L0 1 43
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1767716880.000000
+!s107 tb/tb_delay.v|
+!s90 -work|work|tb/tb_delay.v|
+!i113 1
+o-work work
+tCvgOpt 0

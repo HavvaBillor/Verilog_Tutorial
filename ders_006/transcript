@@ -1,0 +1,31 @@
+# vsim -c -work work tb_control_flow -do "run -all; quit" 
+# Start time: 17:50:49 on Jan 04,2026
+# Loading work.tb_control_flow
+# run -all
+# -------------------------------- 
+# a<b
+# 
+# -----------case yapisi---------------------
+# a bilinmeyen bir deger
+# 
+# -----------for dongusu---------------------
+# for: i =           0
+# for: i =           1
+# for: i =           2
+# for: i =           3
+# -----------while dongusu---------------------
+# while: i =           0
+# while: i =           1
+# while: i =           2
+# while: i =           3
+# -----------repeat dongusu---------------------
+# repeat: i =           0
+# repeat: i =           1
+# repeat: i =           2
+# repeat: i =           3
+# -------------------------------- 
+# repeat tekrarlandi
+# repeat tekrarlandi
+#  quit
+# End time: 17:50:50 on Jan 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

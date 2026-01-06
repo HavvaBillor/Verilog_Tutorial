@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/subat/tutorial/ders_001
+vders_001
+Z1 !s110 1767352680
+!i10b 1
+!s100 iWC_J`SJbm^eOE0XEPQSi1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ik7fa5]Bml8SDF8PMXRfij1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1767352456
+8rtl/ders_001.v
+Frtl/ders_001.v
+!i122 29
+L0 4 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1767352680.000000
+!s107 rtl/ders_001.v|tb/tb_ders_001.v|
+Z6 !s90 -work|work|tb/tb_ders_001.v|rtl/ders_001.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vtb_ders_001
+R1
+!i10b 1
+!s100 PfCn?H`60l]GnA7J68eOM1
+R2
+I@NbSPiIFZM7<W57L@K49M2
+R3
+R0
+w1767352664
+8tb/tb_ders_001.v
+Ftb/tb_ders_001.v
+!i122 29
+L0 3 28
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 rtl/ders_001.v|tb/tb_ders_001.v|
+R6
+!i113 1
+R7
+R8

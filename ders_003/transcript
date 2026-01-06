@@ -1,0 +1,18 @@
+# vsim -c -work work tb_full_adder -do "run -all; quit" 
+# Start time: 11:44:53 on Jan 03,2026
+# Loading work.tb_full_adder
+# Loading work.full_adder
+# Loading work.half_adder
+# run -all
+#  num1: x, num2: x, num3: x | sum: x, carry: x
+#  num1: 0, num2: 0, num3: 0 | sum: 0, carry: 0
+#  num1: 0, num2: 0, num3: 1 | sum: 1, carry: 0
+#  num1: 0, num2: 1, num3: 0 | sum: 1, carry: 0
+#  num1: 0, num2: 1, num3: 1 | sum: 0, carry: 1
+#  num1: 1, num2: 0, num3: 0 | sum: 1, carry: 0
+#  num1: 1, num2: 0, num3: 1 | sum: 0, carry: 1
+#  num1: 1, num2: 1, num3: 0 | sum: 0, carry: 1
+#  num1: 1, num2: 1, num3: 1 | sum: 1, carry: 1
+#  quit
+# End time: 11:44:54 on Jan 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

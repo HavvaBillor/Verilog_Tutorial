@@ -1,0 +1,17 @@
+# vsim -work work tb_ders_002 
+# Start time: 18:24:13 on Jan 02,2026
+# Loading work.tb_ders_002
+# Loading work.ders_001
+add wave -position insertpoint  \
+sim:/tb_ders_002/a \
+sim:/tb_ders_002/b \
+sim:/tb_ders_002/y \
+sim:/tb_ders_002/temp
+restart
+run
+# out
+# 
+# a=1100 b=0000 y:0 
+# 
+# End time: 18:25:18 on Jan 02,2026, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0

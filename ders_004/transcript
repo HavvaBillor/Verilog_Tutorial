@@ -1,0 +1,28 @@
+# vsim -c -work work tb_verilog_data_types -do "run -all; quit" 
+# Start time: 14:07:50 on Jan 03,2026
+# Loading work.tb_verilog_data_types
+# run -all
+# ===VERILOG VERI TURLERI VE OZELLIKLERI===
+# 
+# Wire baslangic degeri: x
+# atanan degeri: 0
+# 
+# Reg baslangic degeri: xxxxxxxx
+# atanan degeri:  10
+# 
+# Reg baslangic degeri: xxxxxxxxxxxxxxxx
+# atanan degeri: 65526
+# 
+# Real baslangic degeri: 00000000
+# atanan degeri: -0.500000
+# 
+# Time baslangic degeri: xxxxxxxxxxxxxxxx
+# atanan degeri:                   70
+# 
+# Integer baslangic degeri: xxxxxxxx
+# atanan degeri:         -10
+# 
+# String degeri: FB
+#  quit
+# End time: 14:07:51 on Jan 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

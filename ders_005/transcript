@@ -1,0 +1,8 @@
+# vsim -c -work work tb_control_flow -do "run -all; quit" 
+# Start time: 17:49:54 on Jan 04,2026
+# ** Error: (vsim-3170) Could not find 'tb_control_flow'.
+#         Searched libraries:
+#             /home/subat/tutorial/ders_005/work
+# Error loading design
+# End time: 17:49:54 on Jan 04,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

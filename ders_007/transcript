@@ -1,0 +1,8 @@
+# vsim -c -work work tb_ders_008 -do "run -all; quit" 
+# Start time: 17:12:21 on Jan 05,2026
+# ** Error: (vsim-3170) Could not find 'tb_ders_008'.
+#         Searched libraries:
+#             /home/subat/tutorial/ders_007/work
+# Error loading design
+# End time: 17:12:22 on Jan 05,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

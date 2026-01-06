@@ -1,0 +1,8 @@
+# vsim -c -work work tb_ders_008 -do "run -all; quit" 
+# Start time: 17:27:27 on Jan 05,2026
+# Loading work.tb_ders_008
+# run -all
+# data_reg : 011111111100110011011101zzzzzzzz
+#  quit
+# End time: 17:27:28 on Jan 05,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

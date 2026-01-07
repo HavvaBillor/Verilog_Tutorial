@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/subat/Verilog_Tutorial/ders_011
+vtb_task_func
+!s110 1767789234
+!i10b 1
+!s100 fc]:GGF[;VcUPDS?`CZSP0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+ILAo:XaWjh<Ob=ZB56:lcN3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1767789228
+8tb/tb_task_func.v
+Ftb/tb_task_func.v
+!i122 21
+L0 1 111
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1767789234.000000
+!s107 tb/tb_task_func.v|
+!s90 -work|work|tb/tb_task_func.v|
+!i113 1
+o-work work
+tCvgOpt 0

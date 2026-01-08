@@ -1,0 +1,18 @@
+# vsim -c -work work tb_dff -do "	vcd file dump.vcd; 	vcd add -r /*; 	run -all; 	vcd flush; 	quit" 
+# Start time: 13:57:26 on Jan 08,2026
+# Loading work.tb_dff
+# Loading work.dff
+# 	vcd file dump.vcd
+#  	vcd add -r /*
+#  	run -all
+# ** Warning: (vsim-PLI-3110) $dumpfile : This task can be called only once. Please use $fdumpfile()
+# for multiple files.
+#    Time: 0 ps  Iteration: 0  Process: /tb_dff/#INITIAL#17 File: tb/tb_dff.v Line: 22
+# ** Note: $stop    : tb/tb_dff.v(49)
+#    Time: 35 ps  Iteration: 1  Instance: /tb_dff
+# Break in Module tb_dff at tb/tb_dff.v line 49
+# Stopped at tb/tb_dff.v line 49
+#  	vcd flush
+#  	quit
+# End time: 13:57:27 on Jan 08,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

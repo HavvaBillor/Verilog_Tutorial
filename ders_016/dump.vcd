@@ -1,0 +1,549 @@
+$date
+	Thu Jan  8 19:04:06 2026
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_fifo $end
+$var parameter 32 ! DATA_WIDTH $end
+$var parameter 32 " FIFO_DEPTH $end
+$var parameter 32 # CLK_PERIOD $end
+$var reg 1 $ clk $end
+$var reg 1 % rst $end
+$var reg 1 & wr_en $end
+$var reg 1 ' rd_en $end
+$var reg 8 ( wdata [7:0] $end
+$var wire 1 ) rdata [7] $end
+$var wire 1 * rdata [6] $end
+$var wire 1 + rdata [5] $end
+$var wire 1 , rdata [4] $end
+$var wire 1 - rdata [3] $end
+$var wire 1 . rdata [2] $end
+$var wire 1 / rdata [1] $end
+$var wire 1 0 rdata [0] $end
+$var wire 1 1 full $end
+$var wire 1 2 empty $end
+
+$scope module fifo_inst $end
+$var parameter 32 3 DATA_WIDTH $end
+$var parameter 32 4 FIFO_DEPTH $end
+$var parameter 32 5 ADDR_WIDTH $end
+$var wire 1 6 clk $end
+$var wire 1 7 rst $end
+$var wire 1 8 wr_en $end
+$var wire 1 9 rd_en $end
+$var wire 1 : wdata [7] $end
+$var wire 1 ; wdata [6] $end
+$var wire 1 < wdata [5] $end
+$var wire 1 = wdata [4] $end
+$var wire 1 > wdata [3] $end
+$var wire 1 ? wdata [2] $end
+$var wire 1 @ wdata [1] $end
+$var wire 1 A wdata [0] $end
+$var wire 1 ) rdata [7] $end
+$var wire 1 * rdata [6] $end
+$var wire 1 + rdata [5] $end
+$var wire 1 , rdata [4] $end
+$var wire 1 - rdata [3] $end
+$var wire 1 . rdata [2] $end
+$var wire 1 / rdata [1] $end
+$var wire 1 0 rdata [0] $end
+$var wire 1 1 full $end
+$var wire 1 2 empty $end
+$var reg 3 B wr_point [2:0] $end
+$var reg 3 C rd_point [2:0] $end
+$var reg 4 D fifo_count [3:0] $end
+$var reg 8 E fifo_rdata [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+1%
+0&
+0'
+b0 (
+bx B
+bx C
+bx D
+bx E
+b1000 !
+b1000 "
+b1010 #
+b1000 3
+b1000 4
+b11 5
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x1
+x2
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+17
+06
+$end
+#5
+1$
+16
+b0 B
+b0 C
+b0 D
+b0 E
+0%
+12
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+07
+#10
+0$
+06
+#15
+1$
+16
+1&
+b100100 (
+18
+1?
+1<
+#20
+0$
+06
+#25
+1$
+16
+b1 D
+b1 B
+b10000001 (
+02
+1A
+0?
+0<
+1:
+#30
+0$
+06
+#35
+1$
+16
+b10 D
+b10 B
+b1001 (
+1>
+0:
+#40
+0$
+06
+#45
+1$
+16
+b11 D
+b11 B
+b1100011 (
+1@
+0>
+1<
+1;
+#50
+0$
+06
+#55
+1$
+16
+b100 D
+b100 B
+b1101 (
+0@
+1?
+1>
+0<
+0;
+#60
+0$
+06
+#65
+1$
+16
+b101 D
+b101 B
+b10001101 (
+1:
+#70
+0$
+06
+#75
+1$
+16
+b110 D
+b110 B
+b1100101 (
+0>
+1<
+1;
+0:
+#80
+0$
+06
+#85
+1$
+16
+b111 D
+b111 B
+b10010 (
+0A
+1@
+0?
+1=
+0<
+0;
+#90
+0$
+06
+#95
+1$
+16
+b1000 D
+b0 B
+0&
+11
+08
+#100
+0$
+06
+#105
+1$
+16
+1&
+b1 (
+18
+1A
+0@
+0=
+#106
+0&
+08
+#110
+0$
+06
+#115
+1$
+16
+1'
+19
+#120
+0$
+06
+#125
+1$
+16
+b111 D
+b100100 E
+b1 C
+01
+1.
+1+
+#130
+0$
+06
+#135
+1$
+16
+b110 D
+b10000001 E
+b10 C
+10
+0.
+0+
+1)
+#140
+0$
+06
+#145
+1$
+16
+b101 D
+b1001 E
+b11 C
+1-
+0)
+#150
+0$
+06
+#155
+1$
+16
+b100 D
+b1100011 E
+b100 C
+1/
+0-
+1+
+1*
+#160
+0$
+06
+#165
+1$
+16
+b11 D
+b1101 E
+b101 C
+0/
+1.
+1-
+0+
+0*
+#170
+0$
+06
+#175
+1$
+16
+b10 D
+b10001101 E
+b110 C
+1)
+#180
+0$
+06
+#185
+1$
+16
+b1 D
+b1100101 E
+b111 C
+0-
+1+
+1*
+0)
+#190
+0$
+06
+#195
+1$
+16
+b0 D
+b10010 E
+b0 C
+0'
+12
+00
+1/
+0.
+1,
+0+
+0*
+09
+#200
+0$
+06
+#205
+1$
+16
+1'
+19
+#206
+0'
+09
+#210
+0$
+06
+#215
+1$
+16
+1&
+1'
+b1101 (
+18
+19
+1?
+1>
+10
+0/
+1.
+1-
+0,
+#220
+0$
+06
+#225
+1$
+16
+b1 B
+b1110110 (
+0A
+1@
+0>
+1=
+1<
+1;
+00
+1/
+0-
+1,
+1+
+1*
+#230
+0$
+06
+#235
+1$
+16
+b10 B
+b111101 (
+1A
+0@
+1>
+0;
+10
+0/
+1-
+0*
+#240
+0$
+06
+#245
+1$
+16
+b11 B
+b11101101 (
+0=
+1;
+1:
+0,
+1*
+1)
+#250
+0$
+06
+#255
+1$
+16
+b100 B
+b10001100 (
+0A
+0<
+0;
+00
+0+
+0*
+#260
+0$
+06
+#265
+1$
+16
+b101 B
+0&
+0'
+08
+09
+1/
+0.
+0-
+1,
+0)
+#270
+0$
+06
+#275
+1$
+16
+1&
+b11111001 (
+18
+1A
+0?
+1=
+1<
+1;
+#280
+0$
+06
+#285
+1$
+16
+b1 D
+b110 B
+b11000110 (
+02
+0A
+1@
+1?
+0>
+0=
+0<
+#290
+0$
+06
+#295
+1$
+16
+b10 D
+b111 B
+b11000101 (
+1A
+0@
+#300
+0$
+06
+#305
+1$
+16
+b11 D
+b0 B
+1%
+17
+#310
+0$
+06
+#315
+1$
+16
+b0 D
+b0 E
+0%
+12
+0/
+0,
+07
+#320
+0$
+06
+#325
+1$
+16
+b1 D
+b1 B
+02
+#330
+0$
+06
+#335
+1$
+16

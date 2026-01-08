@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/subat/Verilog_Tutorial/ders_016
+vfifo
+Z1 !s110 1767888344
+!i10b 1
+!s100 `K<eOS^?JOM6RWXf`T9ff0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHNeX@andVnYW[0JLOmnZc2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1767886879
+8rtl/fifo.v
+Frtl/fifo.v
+!i122 4
+L0 1 56
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1767888344.000000
+!s107 rtl/fifo.v|
+!s90 -work|work|rtl/fifo.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtb_fifo
+R1
+!i10b 1
+!s100 WWX>hh@2FeLGn^R_bDfz31
+R2
+IXKVmDc;0T?VJb]n]VLcDb2
+R3
+R0
+w1767888336
+8tb/tb_fifo.v
+Ftb/tb_fifo.v
+!i122 5
+L0 1 136
+R4
+r1
+!s85 0
+31
+R5
+!s107 tb/tb_fifo.v|
+!s90 -work|work|tb/tb_fifo.v|
+!i113 1
+R6
+R7

@@ -1,0 +1,9 @@
+# vsim -c -work work tb_directives -do "run -all; quit" 
+# Start time: 14:55:37 on Jan 08,2026
+# Loading work.tb_directives
+# run -all
+# Signal sig = 10100101
+# ** Note: $finish    : tb/tb_directives.v(20)
+#    Time: 10 ns  Iteration: 0  Instance: /tb_directives
+# End time: 14:55:37 on Jan 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

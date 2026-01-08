@@ -1,0 +1,9 @@
+# vsim -c -work work tb_cmd_args -do "run -all; quit" 
+# Start time: 16:45:33 on Jan 08,2026
+# Loading work.tb_cmd_args
+# run -all
+# Simulation Seed = 0
+# ** Note: $finish    : tb/tb_cmd_args.v(21)
+#    Time: 10 ps  Iteration: 0  Instance: /tb_cmd_args
+# End time: 16:45:33 on Jan 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

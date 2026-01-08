@@ -13,7 +13,6 @@ module adder(
 `include "adder.vh"
 
 reg [`WIDTH-1:0] temp;
-
 `my_always(temp,a,b,y)
 
 endmodule
